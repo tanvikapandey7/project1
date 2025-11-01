@@ -3,12 +3,15 @@ const Schema = mongoose.Schema;
  
 const listingSchema = new Schema ({
      title: {
-        String ,
+       type: String ,
         required: true,
      },
      description:String,
      image:{
-      String,
+      type: String,
+      default:"https://unsplash.com/photos/half-moon-over-misty-mountains-and-ocean-zN8DMkeELG8",
+      set: (v) =>
+         v ===""? "https://unsplash.com/photos/half-moon-over-misty-mountains-and-ocean-zN8DMkeELG8":v ,
      
      } ,
      price:Number,
@@ -17,4 +20,4 @@ const listingSchema = new Schema ({
 });
 
 const Listing = mongoose.model("Listing", listingSchema);
-modulus.export= Listing ; 
+module.exports = Listing ; 
