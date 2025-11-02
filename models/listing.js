@@ -11,7 +11,9 @@ const listingSchema = new Schema ({
       type: String,
       default:"https://unsplash.com/photos/half-moon-over-misty-mountains-and-ocean-zN8DMkeELG8",
       set: (v) =>
-         v ===""? "https://unsplash.com/photos/half-moon-over-misty-mountains-and-ocean-zN8DMkeELG8":v ,
+         v ===""? 
+      "https://unsplash.com/photos/half-moon-over-misty-mountains-and-ocean-zN8DMkeELG8"
+      :v ,
      
      } ,
      price:Number,
