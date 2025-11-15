@@ -74,7 +74,7 @@ const sampleListings = [
   {
     title: "Jungle Retreat",
     description: "Eco-friendly retreat in the middle of dense tropical forest.",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    image: "https://unsplash.com/photos/courtyard-with-pool-ornate-door-and-chairs-GtlrYb2cPp4",
     price: 180,
     location: "Wayanad",
     country: "India",
@@ -99,7 +99,7 @@ const sampleListings = [
   {
     title: "Cultural Heritage Homestay",
     description: "Traditional Rajasthani home with cultural performances and local cuisine.",
-    image: "https://images.unsplash.com/photo-1586074299249-79a53a1e6b1b",
+    image: "https://unsplash.com/photos/jagged-rocky-mountain-peak-with-green-vegetation-MGUMUFlqKNs",
     price: 95,
     location: "Udaipur",
     country: "India",
